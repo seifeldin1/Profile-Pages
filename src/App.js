@@ -13,6 +13,7 @@ function App() {
       <Routes>
         <Route path='/'>
         <Route index element={<ProfilePage/>}></Route>
+        <Route path='/Profile-Pages/' element={<ProfilePage/>}></Route>
         <Route path='/profiles/:id' element={<UserProfile/>}></Route>
         <Route path='*' element ={<NotFound/>}></Route>
         </Route>
